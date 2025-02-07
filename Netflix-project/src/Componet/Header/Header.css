@@ -1,0 +1,44 @@
+.header-outer{
+    position: static;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(20,20,20);
+    background-color: transparent;
+    height: 10vh;
+    color: white;
+    transition: all 0.5s;
+    transition-timing-function: ease-in;
+    z-index: 1;
+    background-color: rgb(20,20,20);
+    /* background-color: red;  */
+}
+.header-component{
+    width: 980px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-left ul{
+    /* width: 30px; */
+    display: flex;
+    align-items: center;
+    list-style: none;
+    cursor: pointer;
+    justify-content: space-between;
+    gap:20px ;
+ 
+
+
+}
+.header-right ul{
+    padding-top: 15px;
+    display: flex;
+    align-items: center;
+    list-style: none;
+    cursor: pointer;
+    justify-content: space-between;
+    gap:20px ;
+   
+  
+}
