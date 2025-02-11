@@ -3,6 +3,7 @@ import './App.css'
 
 import Home from './pages/Home/Home'
 
+
 function App() {
  
 
@@ -10,7 +11,7 @@ function App() {
     <>
       <div className='app'>
        <Home/>
-      
+       
     
       </div>
     </>
