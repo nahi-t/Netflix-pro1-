@@ -1,5 +1,8 @@
-import axios from"axios"
-const instance=axios.create({
-    baseURL:"http://api.themoviebd.org/3",                                                                                                                  
+import Axios from "axios";
+
+const instance = Axios.create({
+  baseURL: "https://api.themoviedb.org/3", // ✅ Correct TMDb API URL
+  
 });
+
 export default instance;

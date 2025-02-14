@@ -5,3 +5,18 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
 })
+// import { defineConfig } from 'vite';
+// import react from '@vitejs/plugin-react';
+
+// export default defineConfig({
+//   plugins: [react()],
+//   server: {
+//     proxy: {
+//       '/api': {
+//         target: 'https://api.themoviedb.org/3', // HTTPS is essential!
+//         changeOrigin: true, // This is absolutely required for CORS
+//         rewrite: (path) => path.replace(/^\/api/, ''), // Remove the /api prefix
+//       },
+//     },
+//   },
+// });
