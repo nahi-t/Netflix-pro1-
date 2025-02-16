@@ -1,6 +1,6 @@
 {
   "name": "react",
-  "homepage": "https://nahi-t.github.io/Netflix-pro1- ",
+  "homepage": "https://nahi-t.github.io/Netflix-pro1-",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -8,7 +8,8 @@
     "dev": "vite",
     "build": "vite build",
     "predeploy": "npm run build",
-    "deploy": "vite build && gh-pages -d dist",
+  "deploy": "vite build && gh-pages -d dist"
+
     
     "lint": "eslint .",
     "preview": "vite preview"
