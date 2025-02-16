@@ -1,10 +1,10 @@
-import { defineConfig } from 'vite';
-import react from '@vitejs/plugin-react';
+const isGitHubPages = process.env.NODE_ENV === 'production' && process.env.GITHUB_ACTIONS;
 
 export default defineConfig({
   plugins: [react()],
-  root: ".",  // Ensure this is set correctly
+  base: isGitHubPages ? '/Netflix-pro1/' : '/',
   build: {
-    outDir: "dist",
-  }
+    outDir: 'dist',
+  },
 });
+
