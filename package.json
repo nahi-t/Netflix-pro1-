@@ -16,5 +16,8 @@
     "url": "https://github.com/nahi-t/Netflix-pro1-/issues"
   },
   "homepage": "https://github.com/nahi-t/Netflix-pro1-#readme",
-  "description": ""
+  "description": "",
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
+  }
 }
