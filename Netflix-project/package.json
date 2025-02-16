@@ -1,15 +1,12 @@
-
-
 {
   "name": "react",
   "homepage": "https://nahi-t.github.io/Netflix-pro1- ",
- 
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "predeploy": "npm run build", 
+    "predeploy": "npm run build",
     "deploy": "vite build && gh-pages -d dist",
     "build": "vite build",
     "lint": "eslint .",
@@ -38,6 +35,7 @@
     "eslint-plugin-react": "^7.37.4",
     "eslint-plugin-react-hooks": "^5.0.0",
     "eslint-plugin-react-refresh": "^0.4.18",
+    "gh-pages": "^6.3.0",
     "globals": "^15.14.0",
     "vite": "^6.1.0"
   }
